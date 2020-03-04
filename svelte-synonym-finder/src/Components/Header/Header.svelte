@@ -1,20 +1,24 @@
 <header>
-    <h1>CINNAMON</h1>
+    <h1>Thesaurus</h1>
 </header>
 
 
 
 <style>
     header {
-        background-color: olive;
-        height: 150px;
+        /* background-color: olive; */
+        background-color: cornsilk;
+        height: 120px;
         /* padding-top: 50px; */
-        /* display: flex; */
+        text-align: center;
+        padding-top: 20px;
+        letter-spacing: 10px;
     }
 
     h1 {
-        color: darkolivegreen;
-        /* justify-content: center; */
-        /* align-items: center; */
+        /* color: darkolivegreen; */
+        color: olive;
+        font-size: 4em;
+        
     }
 </style>

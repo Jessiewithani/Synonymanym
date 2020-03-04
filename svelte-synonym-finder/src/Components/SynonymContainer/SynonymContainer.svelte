@@ -13,16 +13,31 @@ const findSyns = (event) => {
 }
     //use each block to map through the synonyms to make a card
 </script>
-<h3>Here are your synonyms for {word}</h3>
+<h3>Here are your synonyms for: <span>{word}</span></h3>
 <div>
     {#each synonyms as word}
     <SynonymCard word={word} on:showMoreSynonyms={findSyns}/>
     {/each}
 </div>
 <style>
+    h3 {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    span {
+        color: green;
+        font-size: 1.2em;
+    }
     div {
         background-color: rgb(191, 191, 122);
+        padding-left: 40px;
+        padding-top: 40px;
+
         height: 400px;
         display: flex;
+        flex-wrap: wrap;
     }
+
 </style>
