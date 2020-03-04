@@ -4,7 +4,7 @@ application that accesses the thesaurus api using Svelte as a language.
 ## Setup
 
 1. clone this repo
-``
+`https://github.com/Jessiewithani/Synonymanyn.git`
 2. install dependencies
 3. npm run dev
 
