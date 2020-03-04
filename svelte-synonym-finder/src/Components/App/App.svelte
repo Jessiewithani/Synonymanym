@@ -1,6 +1,7 @@
 <script>
 
-import Header from '../../Components/Header/Header.svelte'
+import Header from '../../Components/Header/Header.svelte';
+import SynonymForm  from '../../Components/SynonymForm/SynonymForm.svelte';
 
 </script>
 
@@ -8,6 +9,7 @@ import Header from '../../Components/Header/Header.svelte'
 
 <main>
     <Header />
+    <SynonymForm/>
 	<!-- <h1>Hello {word}!</h1> -->
 	<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 </main>
