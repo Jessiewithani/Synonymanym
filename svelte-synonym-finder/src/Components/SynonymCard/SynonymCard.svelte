@@ -19,8 +19,18 @@
 <style>
     div {
         background-color: pink;
-        margin-right: 10px;
-        height: 80px;
+        margin-right: 30px;
+        height: 50px; 
         width: 200px;
+        border-radius: 10px;
+        /* letter-spacing: 2px; */
+        overflow: scroll;
+    }
+    h3 {
+        font-size: 1.8em;
+        text-align: center;
+        margin-top: 8px;
+        letter-spacing: 2px;
+        /* overflow: scroll; */
     }
 </style>

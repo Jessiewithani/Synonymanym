@@ -12,6 +12,7 @@
         /* padding-top: 50px; */
         text-align: center;
         padding-top: 20px;
+        letter-spacing: 10px;
     }
 
     h1 {

@@ -18,15 +18,37 @@
         searchWord = ''
     }
 </script>
-<form>
-<h2> Insert A Word To Find A Synonym!</h2>
-    <input type="text" placeholder="enter a word" bind:value={searchWord} >
+<div>
+
+<!-- <h2> Insert A Word To Find A Synonym!</h2> -->
+
+    <input type="text" placeholder="enter a word to find a synonym" bind:value={searchWord} >
     <button type="submit" on:click={submitSyn}>Find!</button>
-</form>
+
+</div>
 
 <style>
-    form {
-        background-color: teal;
+    div {
+        background-color:pink;
+        height: 100px;
+        text-align: center;
+    }
+    input {
+        font-size: 2em;
+        width: 500px;
+        text-align: center;
+        border-radius: 10px;
+        /* border:none; */
+        margin-top: 25px;
+        letter-spacing: 1px;
+    }
+    button {
+        font-size: 2em;
+        /* margin-left:-4px; */
+        border: none;
+        border-radius: 10px;
+        margin-left: 20px;
+        letter-spacing: 0.5px;
     }
 
 </style>
