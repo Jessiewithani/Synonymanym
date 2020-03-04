@@ -31,8 +31,9 @@ const findSyns = (event) => {
 <style>
 
 	main {
-        background-color: blanchedalmond;
+        /* background-color: blanchedalmond; */
         height: 100vh;
+        /* background-image: url('') */
 		/* text-align: center;
 		padding: 1em;
 		max-width: 240px;

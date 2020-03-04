@@ -7,7 +7,7 @@
 <style>
     header {
         /* background-color: olive; */
-        background-color: cornsilk;
+        background-color: olive;
         height: 120px;
         /* padding-top: 50px; */
         text-align: center;
@@ -17,7 +17,7 @@
 
     h1 {
         /* color: darkolivegreen; */
-        color: olive;
+        color: white;
         font-size: 4em;
         
     }

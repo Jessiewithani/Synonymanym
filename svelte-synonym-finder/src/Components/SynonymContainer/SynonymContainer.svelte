@@ -25,15 +25,16 @@ const findSyns = (event) => {
         font-size: 1.5em;
         margin-top: 10px;
         margin-bottom: 10px;
+        letter-spacing: 1.5px;
     }
     span {
-        color: green;
+        color: olive;
         font-size: 1.2em;
     }
     div {
-        background-color: rgb(191, 191, 122);
-        padding-left: 40px;
-        padding-top: 40px;
+        /* background-color: rgb(191, 191, 122); */
+        margin-top: 40px;
+        padding-left: 25px;
 
         height: 400px;
         display: flex;

@@ -18,11 +18,13 @@
 
 <style>
     div {
-        background-color: pink;
+        background-color: white;
         margin-right: 30px;
         height: 50px; 
         width: 200px;
-        border-radius: 10px;
+        border-radius: 6px;
+        border: 3px solid olive;
+        /* border-color: olive; */
         /* letter-spacing: 2px; */
         overflow: scroll;
     }

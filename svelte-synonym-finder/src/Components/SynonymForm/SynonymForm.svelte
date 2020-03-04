@@ -29,7 +29,7 @@
 
 <style>
     div {
-        background-color:pink;
+        /* background-color:pink; */
         height: 100px;
         text-align: center;
     }
@@ -37,18 +37,21 @@
         font-size: 2em;
         width: 500px;
         text-align: center;
-        border-radius: 10px;
-        /* border:none; */
+        border:none;
+        border-bottom: 4px solid black;
+        /* border-radius: 6px; */
         margin-top: 25px;
         letter-spacing: 1px;
+        background-color: transparent;
     }
     button {
         font-size: 2em;
         /* margin-left:-4px; */
-        border: none;
-        border-radius: 10px;
+        /* border: none; */
+        border-radius: 6px;
         margin-left: 20px;
         letter-spacing: 0.5px;
+        border: 3px solid olive;
     }
 
 </style>
